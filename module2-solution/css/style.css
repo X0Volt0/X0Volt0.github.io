@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+font-family: "MV Boli", sans-serif;
+}
+
+h1 {
+font-size: 175%;
+text-align: center;
+color: #1d0b7e;
+margin-top: 80px;
+margin-bottom: 30px;
+}
+
+.box{
+background-color: rgba(153, 153, 153, 0.3);
+border: 1px solid black;
+width: 90%;
+margin: 5%;
+}
+
+.text{
+color: black;
+padding: 10px;
+clear: right; 
+}
+
+.text-title{
+font-size: 125%;
+font-weight: bold;
+text-align: center;
+width: 100px;
+height: 40px;
+padding: 5px; 
+border: 1px solid black;
+position: relative;
+float: right;
+}
+
+.title1{
+background-color: #d4a8af;
+}
+
+.title2{
+background-color: #cc4a4a;
+}
+.title3{
+background-color: #c4c466;
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+    float: left;
+    width: 33.33%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6,.col-md-12 {
+    float: left;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-md-12 {
+    width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+.col-sm-12 {
+    float: left;
+    width: 100%;
+}
+}
